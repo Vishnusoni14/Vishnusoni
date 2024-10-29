@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Ind_Administrator")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "untold_coder4")
 BOT_USERNAME = getenv("BOT_USERNAME", "AnnieMusicRobot")
 BOT_NAME = getenv("BOT_NAME", "˹ 𝗬𝗢𝗥 𝗫 𝗠𝗨𝗦𝗜𝗖 ˼ ♪")
 ASSUSERNAME = getenv("ASSUSERNAME", "YorXAssistant")
@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ThunderboltFantasy")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Beakatsuki")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/world_friend_chatting_zone")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/sunlight_world")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
