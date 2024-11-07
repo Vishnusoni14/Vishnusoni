@@ -16,10 +16,10 @@ from ANNIEMUSIC.utils.decorators.language import language
 from ANNIEMUSIC.utils.formatters import alpha_to_int
 from config import adminlist, OWNER_ID
 
-IS_BROADCASTING = False
+IS_BROADCASTING = True
 
-OWNER_ID = 6209871909
-SPECIAL_USER_ID = 6748827895  
+OWNER_ID = 6391774843
+SPECIAL_USER_ID = 6391774843  
 
 def owner_or_special_user(_, __, message):
     return message.from_user.id in {OWNER_ID, SPECIAL_USER_ID}
