@@ -47,18 +47,18 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"ɴᴀɪɴᴄʏ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
+        LOGGER(__name__).info(f"ʀᴀᴅʜᴀ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("NAINCY_UPDATES")
-              
                 await self.one.join_chat("+bThODpBz5adiNDJl")
+              
+                await self.one.join_chat("NAINCY_UPDATES")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "ɴᴀɪɴᴄʏ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
+                await self.one.send_message(config.LOGGER_ID, "ʀᴀᴅʜᴀ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
                                          
             except:
                 LOGGER(__name__).error(
@@ -74,14 +74,14 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("NAINCY_UPDATES")
+                await self.two.join_chat("+bThODpBz5adiNDJl")
                 
-                await self.one.join_chat("+bThODpBz5adiNDJl")
+                await self.one.join_chat("NAINCY_UPDATES")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "ɴᴀɪɴᴄʏ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
+                await self.two.send_message(config.LOGGER_ID, "Untold's Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
@@ -96,14 +96,14 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("NAINCY_UPDATES")
+                await self.three.join_chat("music_support4")
                 
-                await self.one.join_chat("+bThODpBz5adiNDJl")
+                await self.one.join_chat("world_friend_chatting_zone")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "ɴᴀɪɴᴄʏ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
+                await self.three.send_message(config.LOGGER_ID, "Untold's Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -118,14 +118,14 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("NAINCY_UPDATES")
+                await self.four.join_chat("sunlight_world")
                 
-                await self.one.join_chat("+bThODpBz5adiNDJl")
+                await self.one.join_chat("world_friend_chatting_zone")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "ɴᴀɪɴᴄʏ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
+                await self.four.send_message(config.LOGGER_ID, "Untold's Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -147,7 +147,7 @@ class Userbot(Client):
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "ɴᴀɪɴᴄʏ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
+                await self.five.send_message(config.LOGGER_ID, "Untold's Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -160,7 +160,7 @@ class Userbot(Client):
             LOGGER(__name__).info(f"Assistant Five Started as {self.five.name}")
 
     async def stop(self):
-        LOGGER(__name__).info(f"Annie's Stopping Assistants...")
+        LOGGER(__name__).info(f"ʀᴀᴅʜᴀ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
         try:
             if config.STRING1:
                 await self.one.stop()
